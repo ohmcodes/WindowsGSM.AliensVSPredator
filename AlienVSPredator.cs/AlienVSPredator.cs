@@ -70,9 +70,6 @@ namespace WindowsGSM.Plugins
 
             string param = string.Empty;
 
-            // Modify CFG before start
-            createConfigFile();
-
             // Prepare Process
             var p = new Process
             {
